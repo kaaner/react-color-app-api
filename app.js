@@ -31,6 +31,6 @@ io.on("connection", (socket) => {
   });
 });
 
-http.listen("https://pure-sierra-32543.herokuapp.com/", () => {
+http.listen("4000", () => {
   console.log("listening on *:4000");
 });
